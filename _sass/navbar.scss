@@ -6,18 +6,20 @@
     padding-top: 10px;
     z-index: 1;
     position: fixed;
+    transition: 0.2s;
 }
 
 .nav-links{
     list-style: none;
     display: flex;
     padding: 1rem 5rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.1rem;
 }
 
 .navLink{
     padding: 0 0.5rem;
     color: black;
+    font-size: 1.1rem;
 }
 
 .navLink a{
@@ -31,6 +33,7 @@
 .nav-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-content .logo-touch-target {
@@ -40,13 +43,20 @@
 }
 
 .nav-content .nav-logo {
-    height: 60px;
     margin: auto;
-    padding: 0 1rem;
+    transition: 0.4s;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 0;
 }
 
 .nav-logo img {
     width: 110px;
+    height: 50px;
     padding-top: 0px;
     margin-left: 35px;
     margin-bottom: 10px;
@@ -62,9 +72,11 @@
 }
 
 .show{
-    display: block;
+    transform: scale(0.6);
+    transition: all 6ms;
 }
 
 .hide{
-    display: none;
+    transform: scale(1.1);
+    transition: all 6ms;
 }

@@ -17,8 +17,14 @@
         navLogo.className = "nav-logo hide"
         function myScrollFunc(){
             var scY = window.scrollY;
-            if(scY > 100) navLogo.className = "nav-logo show"
-            else navLogo.className = "nav-logo hide"
+            if(scY > 100) {
+                navLogo.className = "nav-logo show"   
+                navLogo.style.padding = "0.3rem 0";
+            }
+            else {
+                navLogo.className = "nav-logo hide"
+                navLogo.style.padding = "0.8rem 0";
+            }
         }
         window.addEventListener("scroll", myScrollFunc);
     </script>
