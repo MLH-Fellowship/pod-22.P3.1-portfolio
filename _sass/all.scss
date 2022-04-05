@@ -59,8 +59,25 @@ h2 {
 a {
     color: black;
 }
-.project-thumbnail{
+.thumb{
+  position: relative;
   margin-bottom: 1rem;
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgb(136, 132, 132);
+  }
+
+  .overlay:hover{
+    opacity: 65%;
+  }
   
 }
 .info {
