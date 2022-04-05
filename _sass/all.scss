@@ -53,12 +53,25 @@ h2 {
 }
 
 .card:hover{
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  .overlay{
+    opacity: 65%;
+  } 
 }
 
 a {
     color: black;
 }
+
+a:hover{
+  text-decoration: none;
+  color: grey;
+  .title .authors .location .dates{
+    font-weight: bolder;
+  }
+  
+}
+
 .project-thumbnail{
   position: relative;
   margin-bottom: 1rem;
@@ -79,10 +92,6 @@ a {
     background-color: #133667;;
   }
 
-  .overlay:hover{
-    opacity: 65%;
-  }
-
   .overlay-message{
     position: absolute;
     top: 50%;
@@ -101,6 +110,7 @@ a {
   
 }
 .info {
+
     p {
         margin-top: 5px;
         margin: 0px;
