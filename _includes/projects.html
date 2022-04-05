@@ -7,15 +7,15 @@
     <a>
     {% endif %}
       <div class="card">
-        <div class ="thumb">
-          <div class="project-thumbnail">
-            <img src="./assets/img/{{ item.img }}">
-            <div class="overlay">
-              <div class="text">Click to read more!</div>
-            </div>
+        
+        <div class="project-thumbnail">
+          <img class="thumb" src="./assets/img/{{ item.img }}">
+          <div class="overlay">
+            <p class="overlay-message">Click to read more!</p>
           </div>
         </div>
-        
+      
+      
         <div class="info">
           <p class="title">{{ item.title }}</p>
           <p class="location">{{ item.event }}</p>

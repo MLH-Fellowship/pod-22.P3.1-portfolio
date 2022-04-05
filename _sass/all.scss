@@ -59,9 +59,13 @@ h2 {
 a {
     color: black;
 }
-.thumb{
+.project-thumbnail{
   position: relative;
   margin-bottom: 1rem;
+  .thumb{
+    width: 259px;
+   height: 194px;
+  }
   .overlay{
     position: absolute;
     top: 0;
@@ -72,11 +76,27 @@ a {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color:rgb(136, 132, 132);
+    background-color: #133667;;
   }
 
   .overlay:hover{
     opacity: 65%;
+  }
+
+  .overlay-message{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+    font-style: bold;
+    
   }
   
 }
