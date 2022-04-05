@@ -7,8 +7,6 @@
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  // justify-content: center;
-  // align-content: space-between;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -51,15 +49,10 @@ h2 {
   border-radius: 0.375rem;
   padding: 1.5em;
   font-size: 1.2em;
-  // width: 350px;
-  // min-width: 300px;
-  // max-width: 350px;
-  // justify-self: center;
 
   .social_container {
     display: flex;
     flex-direction: row;
-    // align-items: flex-start;
     justify-content: space-between;
     width: 100%;
     padding-top: 20px;
