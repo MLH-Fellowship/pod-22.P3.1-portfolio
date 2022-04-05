@@ -1,9 +1,36 @@
 .nav-bar {
     width: 100%;
-    background-color: #133667;
+    background-color: whitesmoke;
     font-family: "Poppins", serif;
     font-weight: 700 !important;
     padding-top: 10px;
+    z-index: 1;
+    position: fixed;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    padding: 1rem 5rem;
+    margin-bottom: 0.4rem;
+}
+
+.navLink{
+    padding: 0 0.5rem;
+    color: black;
+}
+
+.navLink a{
+    color: black;
+}
+
+.navLink a:hover {
+    color: #184585; 
+  }
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-content .logo-touch-target {
@@ -15,16 +42,15 @@
 .nav-content .nav-logo {
     height: 60px;
     margin: auto;
-}
-
-.nav-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 0 1rem;
 }
 
 .nav-logo img {
-    width: 200px;
+    width: 110px;
+    padding-top: 0px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    transition: all 1s;
 }
 
 .nav-content nav {
@@ -33,4 +59,12 @@
     text-align: right;
     padding-top: 0px;
     padding-right: 0px;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
 }
