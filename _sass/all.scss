@@ -109,8 +109,15 @@ a {
   border-radius: 50%;
   align-items: center;
 
-  img {
-    width: 50%;
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    img {
+      width: 50%;
+    }
   }
 }
 
