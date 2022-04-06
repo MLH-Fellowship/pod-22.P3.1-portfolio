@@ -1,0 +1,35 @@
+.footer {
+    
+    padding:40px 0px;
+    background-color: #133667;
+    margin-top: 60px;
+    
+  }
+  
+  .footer ul {
+   
+    list-style:none;
+    text-align:center;
+    font-size:22px;
+    font-weight: 550;
+    margin-top: 10px;
+    padding:0px;
+
+  }
+  
+  
+  .footer ul li a{
+    color:white;
+    opacity:0.7;
+    text-decoration-style: none;
+    text-decoration: none;
+    font-family:  Helvetica, sans-serif;
+   
+  }
+  
+  .footer ul li a:hover {
+    opacity:2;
+    border-radius: 15px;
+   
+  }
+  
