@@ -3,6 +3,7 @@
 @import 'navbar';
 @import 'profile';
 @import 'page';
+@import 'scroll.scss';
 
 .card-container {
     display: grid;
@@ -28,7 +29,6 @@
   }
 }
 
-
 ::-webkit-scrollbar {
   width: 2vh;
 }
@@ -43,7 +43,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background: grey; 
 }
-
 
 body {
     background-color: #f5f5f9;
