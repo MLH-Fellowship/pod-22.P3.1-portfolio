@@ -6,6 +6,13 @@
 
 <body>
     {{ content }}
+    {% include toggle.html %}
+    <script>
+        const theme = localStorage.getItem("mode");
+        if (theme !== null) {
+          document.body.setAttribute("theme", "dark");
+        }
+      </script>
 </body>
 
 </html>
