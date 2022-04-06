@@ -5,7 +5,7 @@
     var dots = document.getElementById("dots-" + key);
     var moreText = document.getElementById("more-" + key);
     var text = document.getElementById("textButton-" + key);
-
+    console.log(moreText);
     if (dots.style.display === "none") {
       dots.style.display = "inline";
       text.innerHTML = "Read more";
@@ -42,7 +42,7 @@
         </div>
       </a>
       <div>
-        <button  onclick ="showText('{{item.title}}')" class ="showButton" id="textButton-{{item.title}}">Show more</button>
+        <button  onclick ="showText('{{item.key}}')" class ="showButton" id="textButton-{{item.key}}">Show more</button>
       </div>
     </div>
     {% endfor %}
