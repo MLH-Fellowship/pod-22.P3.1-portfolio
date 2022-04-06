@@ -28,7 +28,6 @@
   }
 }
 
-
 body {
     background-color: #f5f5f9;
     margin-bottom: 50px;
@@ -69,7 +68,6 @@ a:hover{
   .title .authors .location .dates{
     font-weight: bolder;
   }
-  
 }
 
 .project-thumbnail{
@@ -77,7 +75,7 @@ a:hover{
   margin-bottom: 1rem;
   .thumb{
     width: 259px;
-   height: 194px;
+    height: 194px;
   }
   .overlay{
     position: absolute;
@@ -89,7 +87,7 @@ a:hover{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #133667;;
+    background-color: #133667;
   }
 
   .overlay-message{
@@ -148,3 +146,6 @@ a:hover{
         width: 100%;
     }
 }
+
+
+
