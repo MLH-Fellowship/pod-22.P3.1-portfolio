@@ -60,6 +60,10 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.transition-effect {
+  transition: all 0.3s ease-in-out;
+}
+
 .hidden {
   opacity: 0;
 }
