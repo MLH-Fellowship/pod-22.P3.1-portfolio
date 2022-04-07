@@ -30,7 +30,7 @@
 
 - name: Abhishek Kumar Singh
   img: amanda.jpg
-  location: Delhi , India
+  location: Bihar,India
   page-name: Abhishek
 
 - name: Ankita Ugale
@@ -60,7 +60,7 @@
 
 - name: Omkar Acharekar
   img: aaron.jpg
-  location: Bhopal,India
+  location: Maharashtra, India
   page-name: Omkar
 
 - name: Satya Prakash Satyam
@@ -75,5 +75,5 @@
 
 - name: Suraj Singh
   img: aaron.jpg
-  location: Bhopal,India
+  location: Varanasi, India
   page-name: suraj

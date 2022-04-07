@@ -4,17 +4,17 @@ layout: page
 ---
 
 ## Description
-A passionate developer who strives to bridge the gap between theory and practice by bringing ideas to life.
+Career-focused individual who loves to take up new challenges, explore different domains and acquire new skills.
 
 ## Favourite programming languages
 
-Python, Swift, Java, and JavaScript
+Java, JavaScript
 
 
 ## Interests outside of technology
 
-Playing video games, watching movies and TV shows, and listening to music (especially Bollywood classics).
+Watching Marvel and DC Movies , Reading Comics (currently - Quantum Quest)
 
 ## University
 
-Baruch College, USA.
+Netaji Subhas Institute of Technology , Patna
