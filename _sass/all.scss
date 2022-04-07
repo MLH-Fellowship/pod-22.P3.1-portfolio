@@ -81,7 +81,10 @@ h2 {
 
 .card {
     display: flex;
-    flex-direction: row;
+    height: fit-content;
+    width: auto;
+    transition: box-shadow .3s;
+    flex-direction: column;
     align-items: center;
     margin: 20px 30px;
     background-color: white;
@@ -90,11 +93,66 @@ h2 {
     font-size: 1.2em;
 }
 
+.card:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+  .overlay{
+    opacity: 65%;
+  } 
+}
+
 a {
     color: black;
 }
 
+a:hover{
+  text-decoration: none;
+  color: grey;
+  .title .authors .location .dates{
+    font-weight: bolder;
+  }
+}
+
+.project-thumbnail{
+  position: relative;
+  margin-bottom: 1rem;
+  width: 259px;
+  height: 194px;
+  .thumb{
+    width: 259px;
+    height: 194px;
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #133667;
+  }
+
+  .overlay-message{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+    font-style: bold;
+    
+  }
+  
+}
 .info {
+
     p {
         margin-top: 5px;
         margin: 0px;
@@ -106,6 +164,11 @@ a {
         font-weight: bold;
     }
 
+    .authors{
+      font-size: 150;
+      font-weight: 250;
+    }
+
     .location, .description {
         font-size: medium;
         font-weight: 400;
@@ -115,6 +178,7 @@ a {
         font-size: small;
         color: #404040;
     }
+
 }
 
 .icon {
@@ -127,3 +191,19 @@ a {
         width: 100%;
     }
 }
+
+.showButton{
+    border: none;
+    padding: 15px;
+    text-align: center;
+    margin: 4px 2px;
+    border-radius: 12px;  
+    font-size: medium;
+    font-weight: 200;
+    font-family: "Poppins", serif;
+}
+.more {display: none;}
+
+
+
+
