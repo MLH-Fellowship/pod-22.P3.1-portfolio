@@ -1,25 +1,25 @@
 - name: Shambhavi Singh
-  img: logo.jpg
+  img: shamvi.jpeg
   location: Bihar, India
   page-name: shamvi
 
 - name: Anjali Saxena
-  img: amanda.jpg
+  img: anjali.png
   location: Delhi , India
   page-name: Anjali
 
 - name: Khushhal Reddy
-  img: aaron.jpg
+  img: khusshal.png
   location: Bhopal,India
   page-name: Reddy
 
 - name: Pablo Agustin Ortega Kral
-  img: swift.jpg
+  img: pablo.png
   location: Guadalajara, Mexico
   page-name: Pablo
 
 - name: Mayank Mamgain
-  img: amanda.jpg
+  img: mayank.png
   location: Delhi , India
   page-name: mayank
 
@@ -29,22 +29,22 @@
   page-name: Aastha
 
 - name: Abhishek Kumar Singh
-  img: amanda.jpg
+  img: abhishek.png
   location: Bihar,India
   page-name: Abhishek
 
 - name: Ankita Ugale
-  img: amanda.jpg
+  img: ankita.jpeg
   location: Maharashtra, India
   page-name: Ankita
 
 - name: Anusha Nath Roy
-  img: amanda.jpg
-  location: Delhi , India
+  img: anusha.png
+  location: Telangana , India
   page-name: Anusha
 
 - name: Efaz Ahmed
-  img: amanda.jpg
+  img: efaz.png
   location: New York, USA
   page-name: Efaz
 
@@ -64,7 +64,7 @@
   page-name: Omkar
 
 - name: Satya Prakash Satyam
-  img: aaron.jpg
+  img: satya.png
   location: Prayagraj, India
   page-name: Satya
 
@@ -74,6 +74,6 @@
   page-name: Unnati
 
 - name: Suraj Singh
-  img: aaron.jpg
+  img: suraj.png
   location: Varanasi, India
   page-name: suraj
