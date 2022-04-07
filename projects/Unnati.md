@@ -4,18 +4,18 @@ layout: page
 ---
 
 ## Description
-A motivated fresher with an ability to adapt changes in a dynamic environment.
+A Young Mind with High thoughts and aspirations!
 
 
 ## Favourite programming languages
 
-C++, javascript ,html and  css.
+Python and Java
  
 
 ## Interests outside of technology
 
-Graphic Designing
+Singing, Travelling
 
 ## University
 
-Birla institute of technology,Mesra.
+IGDTUW
