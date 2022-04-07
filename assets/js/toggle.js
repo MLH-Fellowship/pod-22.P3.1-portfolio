@@ -2,10 +2,7 @@ const darkModeButton = document.getElementById("dark-theme-toggle");
 const darkModeStatusIcon = document.getElementById("dark-mode-status-icon");
 const darkModeStatusIndicator = document.getElementById("dark-mode-status-indicator");
 const darkModeStatusIconWrapper = document.getElementById("dark-mode-status-icon-wrapper");
-// Mapping:
-// 0 - auto
-// 1 - dark
-// 2 - light
+
 var currentMode = 0;
 const modeMapping = {
   0: "auto",
@@ -106,7 +103,6 @@ async function beforeModeChange({ isDark, modePreference, isInit }) {
 }
 
 async function afterModeChange({ isDark, modePreference, isInit }) {
-  // [TODO] Clean up the animation
   if (!isInit) {
     const allElements = document.getElementsByTagName("*");
     if (currentTimeout) {
