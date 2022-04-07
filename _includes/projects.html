@@ -1,5 +1,25 @@
 <h2>Projects</h2>
 <div class="card-container">
+<script>
+
+  function showText(key) {
+    var dots = document.getElementById("dots-" + key);
+    var moreDescription = document.getElementById("more-" + key);
+    var buttonMessage = document.getElementById("textButton-" + key);
+    
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      buttonMessage.innerHTML = "Show more";
+      moreDescription.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      buttonMessage.innerHTML = "Show less";
+      moreDescription.style.display = "inline";
+    }
+}
+</script>
+
+<div class="card-container" id="Projects">
     {% for item in site.data.projects %}
     {% if item.page-name %}
     <a href="/projects/{{ item.page-name }}">
