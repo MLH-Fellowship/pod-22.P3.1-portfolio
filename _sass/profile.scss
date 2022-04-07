@@ -11,8 +11,8 @@
     
     img {
         border-radius: 50%;
-        max-width: 100%;
-        max-height: 100%;
+        width: 240px;
+        height: 240px;
         margin-left: auto;
         margin-right: auto;
         display: inline;        
@@ -21,7 +21,10 @@
     
     .profile-picture {
         margin-bottom: 30px;
-        height: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         padding: 5rem 0 0 0;
     }
 }
