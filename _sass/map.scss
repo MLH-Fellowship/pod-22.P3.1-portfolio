@@ -1,0 +1,24 @@
+.mapboxgl-popup {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
+  .mapboxgl-popup-content {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .marker {
+    background-image: url("https://w7.pngwing.com/pngs/409/413/png-transparent-map-drawing-pin-map-marker-thumbnail.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #htmlmap{
+      margin: 2%;
+      width: 96%;
+      border-radius: 10px;
+  }
