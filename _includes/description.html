@@ -12,6 +12,28 @@
             <p class="title"> {{ item.name }}</p>
             <p class="location"> {{ item.location }}</p>
         </div>
+        <div class="social_container">
+            <div class="social_icon">
+                <a class="link" href= {{ item.github }}>
+                    <img src="./assets/img/social_icons/github.svg" />
+                </a>
+            </div>
+            <div class="social_icon">
+                <a class="link" href= {{ item.twitter }}>
+                    <img src="./assets/img/social_icons/twitter.svg" />
+                </a>
+            </div>
+            <div class="social_icon">
+                <a class="link" href= {{ item.linkedin }}>
+                    <img src="./assets/img/social_icons/linkedin.svg" />
+                </a>
+            </div>
+            <div class="social_icon">
+                <a class="link" href= {{ item.resume }}>
+                    <img src="./assets/img/social_icons/cv.svg" />
+                </a>
+            </div>
+        </div>
     </div>
     </a>
     {% endfor %}
