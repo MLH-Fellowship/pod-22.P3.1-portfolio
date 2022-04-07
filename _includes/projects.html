@@ -1,19 +1,50 @@
 <h2>Projects</h2>
+<script>
+
+  function showText(key) {
+    var dots = document.getElementById("dots-" + key);
+    var moreDescription = document.getElementById("more-" + key);
+    var buttonMessage = document.getElementById("textButton-" + key);
+    
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      buttonMessage.innerHTML = "Show more";
+      moreDescription.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      buttonMessage.innerHTML = "Show less";
+      moreDescription.style.display = "inline";
+    }
+}
+</script>
+
 <div class="card-container" id="Projects">
     {% for item in site.data.projects %}
-    {% if item.page-name %}
-    <a href="/projects/{{ item.page-name }}">
-    {% else %}
-    <a>
-    {% endif %}
-      <div class="card">
+    <div class="card">
+      {% if item.page-name %}
+      <a  href="/projects/{{ item.page-name }}" onclick="handler(event)">
+      {% else %}
+      <a>
+      {% endif %}
+        <div class="project-thumbnail">
+          <img class="thumb" src="./assets/img/{{ item.img }}">
+          <div class="overlay">
+            <p class="overlay-message">Click to read full article!</p>
+          </div>
+        </div>
+        
         <div class="info">
           <p class="title">{{ item.title }}</p>
+          <p class="authors">By: {{item.authors}}</p>
           <p class="location">{{ item.event }}</p>
+          <p class="description"><b>Description</b> {{item.description}} </p>
           <p class="dates">{{ item.date }}</p>
         </div>
+      </a>
+      <div>
+        <button  onclick ="showText('{{item.key}}')" class ="showButton" id="textButton-{{item.key}}">Show more</button>
       </div>
-    </a>
+    </div>
     {% endfor %}
   </div>
   
