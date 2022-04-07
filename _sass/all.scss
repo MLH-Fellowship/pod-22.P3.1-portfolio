@@ -4,6 +4,7 @@
 @import 'profile';
 @import 'page';
 @import 'darkmode';
+@import "loader";
 
 .card-container {
     display: grid;
@@ -77,6 +78,8 @@ h2 {
     margin-top: 20px;
     font-weight: 700;
     text-align: center;
+
+    
 }
 
 .card {
