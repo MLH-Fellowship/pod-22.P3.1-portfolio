@@ -1,15 +1,79 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Shambhavi Singh
+  img: shamvi.jpeg
+  location: Bihar, India
+  page-name: shamvi
 
-- name: Amanda
+- name: Anjali Saxena
+  img: anjali.png
+  location: Delhi , India
+  page-name: Anjali
+
+- name: Khushhal Reddy
+  img: khusshal.png
+  location: Bhopal,India
+  page-name: Reddy
+
+- name: Pablo Agustin Ortega Kral
+  img: pablo.png
+  location: Guadalajara, Mexico
+  page-name: Pablo
+
+- name: Mayank Mamgain
+  img: mayank.png
+  location: Delhi , India
+  page-name: mayank
+
+- name: Aastha Aggarwal 
   img: amanda.jpg
-  location: New York City, USA
+  location: Delhi , India
+  page-name: Aastha
 
-- name: Aaron
+- name: Abhishek Kumar Singh
+  img: abhishek.png
+  location: Bihar,India
+  page-name: Abhishek
+
+- name: Ankita Ugale
+  img: ankita.jpeg
+  location: Maharashtra, India
+  page-name: Ankita
+
+- name: Anusha Nath Roy
+  img: anusha.png
+  location: Telangana , India
+  page-name: Anusha
+
+- name: Efaz Ahmed
+  img: efaz.png
+  location: New York, USA
+  page-name: Efaz
+
+- name: Jyotimoy Kashyap
+  img: amanda.jpg
+  location: Assam, India 
+  page-name: Jyotimoy
+
+- name: Mutugi Mutuma
   img: aaron.jpg
-  location: London, UK
+  location: Nairobi, Kenya
+  page-name: Mutugi
 
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+- name: Omkar Acharekar
+  img: aaron.jpg
+  location: Maharashtra, India
+  page-name: Omkar
+
+- name: Satya Prakash Satyam
+  img: satya.png
+  location: Prayagraj, India
+  page-name: Satya
+
+- name: Unnati Chhabra
+  img: aaron.jpg
+  location: Delhi , India
+  page-name: Unnati
+
+- name: Suraj Singh
+  img: suraj.png
+  location: Varanasi, India
+  page-name: suraj

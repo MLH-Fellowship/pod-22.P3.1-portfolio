@@ -1,7 +1,6 @@
 .profile {
-    background-color: #133667 !important;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.03), black), repeat center/100% url('/assets/img/background.jpg'), #8cc6df;
     text-align: center;
-    height: 320px;
     margin-bottom: 50px;
     h1 {
         font-size: 50px;
@@ -11,8 +10,8 @@
     
     img {
         border-radius: 50%;
-        max-width: 100%;
-        max-height: 100%;
+        width: 240px;
+        height: 240px;
         margin-left: auto;
         margin-right: auto;
         display: inline;        
@@ -21,6 +20,10 @@
     
     .profile-picture {
         margin-bottom: 30px;
-        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 7rem 0 0 0;
     }
 }

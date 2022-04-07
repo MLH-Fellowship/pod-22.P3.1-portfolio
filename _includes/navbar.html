@@ -4,7 +4,32 @@
             <div class="nav-logo">
                 <img src="./assets/img/mlh-prep.png" />
             </div>
+
         </a>
-        
+        <ul class="nav-links">
+            <li class="navLink"><a href="#Pod">Meet the Pod</a></li>
+            <li class="navLink"><a href="#Projects">Projects</a></li>
+            <li class="navLink"><a href="">Other Stuff</a></li>
+        </ul>
+        <div class="buttons">
+            
+        </div>
+       
     </div>
+    <script>
+        let navLogo = document.querySelector('.nav-logo');
+        navLogo.className = "nav-logo hide"
+        function myScrollFunc(){
+            var scY = window.scrollY;
+            if(scY > 100) {
+                navLogo.className = "nav-logo show"   
+                navLogo.style.padding = "0.3rem 0";
+            }
+            else {
+                navLogo.className = "nav-logo hide"
+                navLogo.style.padding = "0.8rem 0";
+            }
+        }
+        window.addEventListener("scroll", myScrollFunc);
+    </script>
 </header>
