@@ -9,6 +9,10 @@ html{
     scroll-behavior: smooth;
 }
 
+.card_anchor {
+  text-decoration: none;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -96,15 +100,17 @@ h2 {
   .social_container {
     display: flex;
     height: fit-content;
-    width: auto;
-    transition: box-shadow .3s;
-    flex-direction: column;
+    width: 100%;
+    // transition: box-shadow .3s;
+    flex-direction: row;
     align-items: center;
-    margin: 20px 30px;
-    background-color: white;
-    border-radius: .375rem;
-    padding: 1.5em;
-    font-size: 1.2em;
+    justify-content: start;
+    margin-top: 10px;
+    // margin: 20px 30px;
+    // background-color: white;
+    // border-radius: .375rem;
+    // padding: 1.5em;
+    // font-size: 1.2em;
 }
 
 .card:hover{
@@ -216,6 +222,7 @@ a:hover{
   background-color: #efeeee;
   border-radius: 50%;
   align-items: center;
+  margin-right: 20px;
 
   .link {
     display: flex;
