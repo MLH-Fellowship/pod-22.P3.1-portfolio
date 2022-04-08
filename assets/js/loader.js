@@ -1,5 +1,5 @@
 $(document).ready(function () {
     setTimeout(function () {
-      $("body").addClass("loaded");
+      $("body").addClass("loading");
     }, 1500);
   });
