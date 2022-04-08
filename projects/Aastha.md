@@ -4,17 +4,18 @@ layout: page
 ---
 
 ## Description
-A passionate developer who strives to bridge the gap between theory and practice by bringing ideas to life.
+Always open to learn and explore unique ideas .
+Favourite programming languages
 
 ## Favourite programming languages
 
-Python, Swift, Java, and JavaScript
+Java and Javascript 
 
 
 ## Interests outside of technology
 
-Playing video games, watching movies and TV shows, and listening to music (especially Bollywood classics).
+Reading, Writing
 
 ## University
 
-Baruch College, USA.
+MAIT, Delhi
