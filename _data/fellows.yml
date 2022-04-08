@@ -1,159 +1,194 @@
-- name: Shambhavi Singh
-  img: shamvi.jpeg
-  location: London, UK
-  linkedin: https://www.linkedin.com/in/shambhavi-singh-4b130a205
-  github: https://github.com/shamvi-05
-  twitter: https://twitter.com/Shambhavi0?t=b2D5BvB0LW694owNUcEikQ&s=08
-  resume: https://docs.google.com/document/d/1y7Sf0g1ATm6DgQ2PyvYap-htYcdN_tySq2fjZP66u8k/edit?usp=sharing
-  location: Bihar, India
-  page-name: shamvi
+---
+  - 
+    name: "Shambhavi Singh"
+    img: "shamvi.jpeg"
+    linkedin: "https://www.linkedin.com/in/shambhavi-singh-4b130a205"
+    github: "https://github.com/shamvi-05"
+    twitter: "https://twitter.com/Shambhavi0?t=b2D5BvB0LW694owNUcEikQ&s=08"
+    resume: "https://docs.google.com/document/d/1y7Sf0g1ATm6DgQ2PyvYap-htYcdN_tySq2fjZP66u8k/edit?usp=sharing"
+    location: "Bihar, India"
+    page-name: "shamvi"
+    commits: 4
+    issues: 0
+    reviews: 0
+  - 
+    name: "Anjali Saxena"
+    img: "anjali.png"
+    linkedin: "https://linkedin.com/"
+    github: "http://github.com/"
+    twitter: "https://twitter.com/"
+    resume: "https://www.google.com/"
+    location: "Delhi, India"
+    page-name: "Anjali"
+    commits: 3
+    issues: 0
+    reviews: 0
+  - 
+    name: "Khushhal Reddy"
+    img: "khusshal.png"
+    linkedin: "https://www.linkedin.com/in/khushhalreddy"
+    github: "http://github.com/"
+    twitter: "https://twitter.com/"
+    resume: "https://www.google.com/"
+    location: "Bhopal,India"
+    page-name: "Reddy"
+    commits: 0
+    issues: 0
+    reviews: 2
+  - 
+    name: "Pablo Agustin Ortega Kral"
+    img: "pablo.png"
+    linkedin: "https://www.linkedin.com/in/paok/"
+    github: "https://github.com/PAOK-2001"
+    twitter: "https://twitter.com/"
+    resume: "https://drive.google.com/file/d/1d2fxyamph8m6iPlkRmPndN3X6zEoyYuf/view?usp=sharing"
+    location: "Guadalajara, Mexico"
+    page-name: "Pablo"
+    commits: 20
+    issues: 2
+    reviews: 0
+  - 
+    name: "Mayank Mamgain"
+    img: "mayank.png"
+    linkedin: "https://www.linkedin.com/in/mayank-mamgain-652a091ba/"
+    github: "http://github.com/"
+    twitter: "https://twitter.com/"
+    resume: "https://www.google.com/"
+    location: "Delhi, India"
+    page-name: "mayank"
+    commits: 13
+    issues: 2
+    reviews: 4
+  - 
+    name: "Aastha Aggarwal"
+    img: "aastha.png"
+    linkedin: "https://www.linkedin.com/in/aastha-aggarwal-849522191/"
+    github: "https://github.com/Aastha2602"
+    twitter: "https://twitter.com/"
+    resume: "https://drive.google.com/file/d/13MntMBAQANQtWdWFNLk-1E0a6dKbBoaI/view?usp=sharing"
+    location: "Delhi, India"
+    page-name: "Aastha"
+    commits: 0
+    issues: 0
+    reviews: 0
+  - 
+    name: "Abhishek Kumar Singh"
+    img: "abhishek.png"
+    linkedin: "https://www.linkedin.com/in/abhishekrawe/"
+    github: "http://github.com/"
+    twitter: "https://twitter.com/"
+    resume: "https://www.google.com/"
+    location: "Bihar, India"
+    page-name: "Abhishek"
+    commits: 2
+    issues: 0
+    reviews: 1
+  - 
+    name: "Ankita Ugale"
+    img: "ankita.jpeg"
+    linkedin: "https://www.linkedin.com/in/ankitaugale/"
+    github: "http://github.com/"
+    twitter: "https://twitter.com/"
+    resume: "https://www.google.com/"
+    location: "Maharashtra, India"
+    page-name: "Ankita"
+    commits: 2
+    issues: 0
+    reviews: 0
+  - 
+    name: "Anusha Nath Roy"
+    img: "anusha.png"
+    linkedin: "https://www.linkedin.com/in/anushanathroy/"
+    github: "http://github.com/"
+    twitter: "https://twitter.com/"
+    resume: "https://www.google.com/"
+    location: "Delhi, India"
+    page-name: "Anusha"
+    commits: 0
+    issues: 1
+    reviews: 0
+  - 
+    name: "Efaz Ahmed"
+    img: "efaz.png"
+    linkedin: "https://www.linkedin.com/in/eahmed2024/"
+    github: "http://github.com/"
+    twitter: "https://twitter.com/"
+    resume: "https://www.google.com/"
+    location: "New York, USA"
+    page-name: "Efaz"
+    commits: 5
+    issues: 0
+    reviews: 0
+  - 
+    name: "Jyotimoy Kashyap"
+    img: "jyotimoy.png"
+    linkedin: "https://www.linkedin.com/in/jyotimoykashyap/"
+    github: "https://github.com/JyotimoyKashyap"
+    twitter: "https://twitter.com/JyotimoyKashyap"
+    resume: "https://drive.google.com/file/d/1hRxbio1SOFwbSlSV6As5ExCK6WW8clw5/view?usp=sharing"
+    location: "Assam, India"
+    page-name: "Jyotimoy"
+    commits: 4
+    issues: 1
+    reviews: 1
+  - 
+    name: "Mutugi Mutuma"
+    img: "aaron.jpg"
+    linkedin: "https://www.linkedin.com/in/mutugi-mutuma/"
+    github: "http://github.com/"
+    twitter: "https://twitter.com/"
+    resume: "https://www.google.com/"
+    location: "Nairobi, Kenya"
+    page-name: "Mutugi"
+    commits: 3
+    issues: 4
+    reviews: 4
+  - 
+    name: "Omkar Acharekar"
+    img: "aaron.jpg"
+    linkedin: "https://www.linkedin.com/in/omkar-acharekar-22671316b/"
+    github: "http://github.com/"
+    twitter: "https://twitter.com/"
+    resume: "https://www.google.com/"
+    location: "Maharashtra, India"
+    page-name: "Omkar"
+    commits: 0
+    issues: 0
+    reviews: 0
+  - 
+    name: "Satya Prakash Satyam"
+    img: "satya.png"
+    linkedin: "https://www.linkedin.com/in/satyaprakashsatyam/"
+    github: "https://github.com/n00bmaster2810"
+    twitter: "https://twitter.com/jethiya_jaagja"
+    resume: "https://drive.google.com/file/d/1FjZa1HDRKnqtOBACdAetECZP3RUdoC6e/view?usp=sharing"
+    location: "Prayagraj, India"
+    page-name: "Satya"
+    commits: 0
+    issues: 1
+    reviews: 0
+  - 
+    name: "Unnati Chhabra"
+    img: "unnati.png"
+    linkedin: "https://www.linkedin.com/in/unnati-chhabra-/"
+    github: "https://github.com/unnati914"
+    twitter: "https://twitter.com/Unnati_twts"
+    resume: "https://drive.google.com/file/d/1nT-BMDF3gjZZE81Xw_wZKzXenCPEr20Y/view?usp=sharing"
+    location: "Delhi, India"
+    page-name: "Unnati"
+    commits: 1
+    issues: 3
+    reviews: 3
+  - 
+    name: "Suraj Singh"
+    img: "suraj.png"
+    linkedin: "hhttps://www.linkedin.com/in/suraj-singh-385673208/"
+    github: "http://github.com/"
+    twitter: "https://twitter.com/"
+    resume: "https://www.google.com/"
+    location: "Varanasi, India"
+    page-name: "suraj"
+    commits: 6
+    issues: 0
+    reviews: 1
 
-- name: Anjali Saxena
-  img: anjali.png
-  location: New York City, USA
-  linkedin: https://linkedin.com/
-  github: http://github.com/
-  twitter: https://twitter.com/
-  resume: https://www.google.com/
-  location: Delhi , India
-  page-name: Anjali
-
-- name: Khushhal Reddy
-  img: khusshal.png
-  location: London, UK
-  linkedin: https://www.linkedin.com/in/khushhalreddy
-  github: http://github.com/
-  twitter: https://twitter.com/
-  resume: https://www.google.com/
-  location: Bhopal,India
-  page-name: Reddy
-
-- name: Pablo Agustin Ortega Kral
-  img: pablo.png
-  location: New York City, USA
-  linkedin: https://www.linkedin.com/in/paok/
-  github: https://github.com/PAOK-2001
-  twitter: https://twitter.com/
-  resume: https://drive.google.com/file/d/1d2fxyamph8m6iPlkRmPndN3X6zEoyYuf/view?usp=sharing
-  location: Guadalajara, Mexico
-  page-name: Pablo
-
-- name: Mayank Mamgain
-  img: mayank.png
-  linkedin: https://www.linkedin.com/in/mayank-mamgain-652a091ba/
-  github: http://github.com/
-  twitter: https://twitter.com/
-  resume: https://www.google.com/
-  location: Delhi , India
-  page-name: mayank
-
-- name: Aastha Aggarwal 
-
-  img: aastha.png
-
-  img: amanda.jpg
-  linkedin: https://www.linkedin.com/in/aastha-aggarwal-849522191/
-  github: https://github.com/Aastha2602
-  twitter: https://twitter.com/
-  resume: https://drive.google.com/file/d/13MntMBAQANQtWdWFNLk-1E0a6dKbBoaI/view?usp=sharing
-
-  location: Delhi , India
-  page-name: Aastha
-
-- name: Abhishek Kumar Singh
-  img: abhishek.png
-  linkedin: https://www.linkedin.com/in/abhishekrawe/
-  github: http://github.com/
-  twitter: https://twitter.com/
-  resume: https://www.google.com/
-  location: Bihar,India
-  page-name: Abhishek
-
-- name: Ankita Ugale
-  img: ankita.jpeg
-  linkedin: https://www.linkedin.com/in/ankitaugale/
-  github: http://github.com/
-  twitter: https://twitter.com/
-  resume: https://www.google.com/
-  location: Maharashtra, India
-  page-name: Ankita
-
-- name: Anusha Nath Roy
-  img: anusha.png
-  linkedin: https://www.linkedin.com/in/anushanathroy/
-  github: http://github.com/
-  twitter: https://twitter.com/
-  resume: https://www.google.com/
-  location: Delhi , India
-  page-name: Anusha
-
-- name: Efaz Ahmed
-  img: efaz.png
-  linkedin: https://www.linkedin.com/in/eahmed2024/
-  github: http://github.com/
-  twitter: https://twitter.com/
-  resume: https://www.google.com/
-  location: New York, USA
-  page-name: Efaz
-
-- name: Jyotimoy Kashyap
-
-  img: jyotimoy.png
-
-  img: amanda.jpg
-  linkedin: https://www.linkedin.com/in/jyotimoykashyap/
-  github: https://github.com/JyotimoyKashyap
-  twitter: https://twitter.com/JyotimoyKashyap
-  resume: https://drive.google.com/file/d/1hRxbio1SOFwbSlSV6As5ExCK6WW8clw5/view?usp=sharing
-
-  location: Assam, India 
-  page-name: Jyotimoy
-
-- name: Mutugi Mutuma
-  img: aaron.jpg
-  linkedin: https://www.linkedin.com/in/mutugi-mutuma/
-  github: http://github.com/
-  twitter: https://twitter.com/
-  resume: https://www.google.com/
-  location: Nairobi, Kenya
-  page-name: Mutugi
-
-- name: Omkar Acharekar
-  img: aaron.jpg
-  linkedin: https://www.linkedin.com/in/omkar-acharekar-22671316b/
-  github: http://github.com/
-  twitter: https://twitter.com/
-  resume: https://www.google.com/
-  location: Maharashtra, India
-  page-name: Omkar
-
-- name: Satya Prakash Satyam
-  img: satya.png  
-  linkedin: https://www.linkedin.com/in/satyaprakashsatyam/
-  github: https://github.com/n00bmaster2810
-  twitter: https://twitter.com/jethiya_jaagja
-  resume: https://drive.google.com/file/d/1FjZa1HDRKnqtOBACdAetECZP3RUdoC6e/view?usp=sharing
-  location: Prayagraj, India
-  page-name: Satya
-
-- name: Unnati Chhabra
-
-  img: unnati.png
-
-  img: unnati.jpg
-  linkedin: https://www.linkedin.com/in/unnati-chhabra-/
-  github: https://github.com/unnati914
-  twitter: https://twitter.com/Unnati_twts
-  resume: https://drive.google.com/file/d/1nT-BMDF3gjZZE81Xw_wZKzXenCPEr20Y/view?usp=sharing
-
-  location: Delhi , India
-  page-name: Unnati
-
-- name: Suraj Singh
-  img: suraj.png
-  linkedin: hhttps://www.linkedin.com/in/suraj-singh-385673208/
-  github: http://github.com/
-  twitter: https://twitter.com/
-  resume: https://www.google.com/
-  location: Varanasi, India
-  page-name: suraj

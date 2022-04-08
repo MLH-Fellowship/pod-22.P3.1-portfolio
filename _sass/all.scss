@@ -274,3 +274,22 @@ align-items: center;
 
 
 .more {display: none;}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  .stats {
+      font-size: 16px;
+      font-weight: 700;
+      margin: 6px 6px 6px 0;
+
+      .stats-content {
+          color: #0a66c2;
+      }
+
+      .count {
+          color: #000;
+      }
+  }
+}
+
