@@ -1,0 +1,485 @@
+[33mcommit 15cd4ec9c15eaeccde051bb90378051034654846[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mnavbar[m[33m)[m
+Merge: 7609cac 0a91ebc
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 22:31:28 2022 +0300
+
+    Merge pull request #27 from JyotimoyKashyap/main
+    
+    Add social icons for fellows | Issue #11
+
+[33mcommit 0a91ebc9908a2c7e8c21f0c819a8e21ec8d1e555[m
+Merge: d39fdc7 7609cac
+Author: ankitaugale23 <ankitaugale23@gmail.com>
+Date:   Fri Apr 8 00:52:33 2022 +0530
+
+    resolve conflicts for social icons
+
+[33mcommit d39fdc7ae163711c89107db8433dc5f52df8353e[m
+Merge: 3ea62b5 d30f0c3
+Author: ankitaugale23 <ankitaugale23@gmail.com>
+Date:   Fri Apr 8 00:30:00 2022 +0530
+
+    add social media links to some of the fellows
+
+[33mcommit 7609cac657979610e46427a3d8bfc8ac98b222e0[m
+Merge: 1a18730 b7aa7eb
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 21:56:22 2022 +0300
+
+    Merge pull request #44 from MLH-Fellowship/create-pull-request/patch-1649357603
+    
+    Auto Compress Images
+
+[33mcommit b7aa7eb7aebde2db0c86224edddebbe74faa4c16[m
+Author: yashika51 <yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 18:53:22 2022 +0000
+
+    Compress Images
+
+[33mcommit 1a1873027167da25495d7362cde1daed49a85c78[m
+Merge: 407041a abfa6c5
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 21:52:35 2022 +0300
+
+    Merge pull request #42 from MLH-Fellowship/create-pull-request/patch-1649355060
+    
+    Auto Compress Images
+
+[33mcommit 407041a8cb6a047dec266345dd162479bca925e4[m
+Merge: 7adc870 a453bf9
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 21:51:50 2022 +0300
+
+    Merge pull request #19 from suraj-singh127/navbar
+    
+    Added navBar with MLH logo and animation on scrolling, as well as links to existings sections
+
+[33mcommit a453bf94b6c1148921c0949b50ec054c7568d819[m[33m ([m[1;31morigin/navbar[m[33m)[m
+Author: suraj-singh127 <surajsingh25163@gmail.com>
+Date:   Fri Apr 8 00:16:31 2022 +0530
+
+    Profile Responsiveness solved finallygit commit -m
+
+[33mcommit b72ca15a077d733512168a9fdb50bd3be0b2b45d[m
+Author: suraj-singh127 <surajsingh25163@gmail.com>
+Date:   Fri Apr 8 00:01:50 2022 +0530
+
+    Profile Page responsiveness solved
+
+[33mcommit 7d540a0055dbf100362ed6dcf880a97bfcd58e53[m
+Author: suraj-singh127 <surajsingh25163@gmail.com>
+Date:   Thu Apr 7 23:50:31 2022 +0530
+
+    Solved Merged conflict and also the profile page responsive
+
+[33mcommit bab14e0ba60c54f9f613492cd4eedb62f33dae64[m
+Merge: f63dc68 7adc870
+Author: Suraj Singh <84654095+suraj-singh127@users.noreply.github.com>
+Date:   Thu Apr 7 23:42:42 2022 +0530
+
+    Merge branch 'MLH-Fellowship:main' into navbar
+
+[33mcommit abfa6c5c91f48cfe29da94e5380c74fdb1e839cd[m
+Author: yashika51 <yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 18:11:00 2022 +0000
+
+    Compress Images
+
+[33mcommit 7adc8704fd2f8aa69ae70e2efe2001b78e348f35[m
+Merge: 6ebfa9a cf9b6f8
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 21:10:13 2022 +0300
+
+    Merge pull request #41 from shamvi-05/main
+    
+    enhanced the profile section in the header file
+
+[33mcommit 6ebfa9acfdc1644632417bea2fabc606891c0e31[m
+Merge: c3d9b3d 7bc8c3e
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 21:10:02 2022 +0300
+
+    Merge pull request #32 from abhishekrawe/main
+    
+    Replace MLH Fellowship logo with MLH prep logo
+
+[33mcommit c3d9b3db8e6da2e7b3c944fb936ee7ef80f4857b[m
+Merge: d30f0c3 36febd3
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 21:09:32 2022 +0300
+
+    Merge pull request #26 from Mutugiii/image-compression-actions
+    
+    Github Action to compress images for Faster loading times
+
+[33mcommit f63dc68fc990486f135f89bf0662ecfd337fef52[m
+Merge: 21eb6d4 d30f0c3
+Author: Suraj Singh <84654095+suraj-singh127@users.noreply.github.com>
+Date:   Thu Apr 7 23:35:40 2022 +0530
+
+    Merge branch 'main' into navbar
+
+[33mcommit cf9b6f852107bf4936a3a8e79db007e14d1c4cc1[m
+Author: shamvi-05 <shamvi050801@gmail.com>
+Date:   Thu Apr 7 22:40:09 2022 +0530
+
+    enhanced ui
+
+[33mcommit d30f0c3c529c0e252dfc501301b0a8ad64dc72c0[m
+Merge: 4a103f3 a362e5b
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 15:41:45 2022 +0300
+
+    Merge pull request #39 from Mayank17M/theme-toggle
+    
+    Add dark theme toggle
+
+[33mcommit 4a103f3b8d7cf16c5391801fabb847678fc84612[m
+Merge: 7aa2452 8a9316d
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 15:40:41 2022 +0300
+
+    Merge pull request #36 from EfazAhmed/anotherBranch
+    
+    Add Contributing.md File
+
+[33mcommit a362e5bd5cb49cf776b409d62e715d44293729cb[m
+Merge: 0a57921 7aa2452
+Author: Mayank Mamgain <mamgain.mayank01@gmail.com>
+Date:   Thu Apr 7 05:35:33 2022 -0700
+
+    Merge branch 'main' into theme-toggle
+
+[33mcommit 0a5792146a83eea41ccba851b90070c47da20a00[m
+Author: Mayank Mamgain <mamgain.mayank01@gmail.com>
+Date:   Thu Apr 7 14:40:38 2022 +0530
+
+    chore: clean-up code
+
+[33mcommit 7aa245234a82798bc42b59cda183cfb33bb3d8f9[m
+Merge: dd0a860 cc0d9e0
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 11:56:59 2022 +0300
+
+    Merge pull request #34 from PAOK-2001/button-dev
+    
+    Collapsable Text in project cards.
+
+[33mcommit dd0a860f8e2a0531971d1d783932c2a6e812fae8[m
+Merge: cf791e7 a7ee1dd
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 11:56:46 2022 +0300
+
+    Merge pull request #28 from shamvi-05/main
+    
+    add Profile page for each fellow solved
+
+[33mcommit cf791e7f51421927fba24ad0d261bf1cc349d872[m
+Merge: bb5c63a 6c5cb43
+Author: Yashika Sharma <34909206+yashika51@users.noreply.github.com>
+Date:   Thu Apr 7 11:07:27 2022 +0300
+
+    Merge pull request #15 from Mayank17M/main
+    
+    Add header background
+
+[33mcommit a7ee1ddd88040dfa21c78709f8c5b85bb3c2fbbc[m
+Author: shamvi-05 <shamvi050801@gmail.com>
+Date:   Thu Apr 7 10:32:45 2022 +0530
+
+    updated info
+
+[33mcommit 8a9316d9926f9b002df5e5f136627a1ea25accb1[m
+Author: EfazAhmed <efazahmededu@gmail.com>
+Date:   Wed Apr 6 20:49:28 2022 -0400
+
+    Created Contributing.md file
+
+[33mcommit 3e3d07967b9e31319824b6068c1f3ba002b0b93a[m
+Author: EfazAhmed <efazahmededu@gmail.com>
+Date:   Wed Apr 6 20:06:01 2022 -0400
+
+    Removed contribution commmit
+
+[33mcommit cc0d9e04706bede3473e87adb9be0f0b36979ec1[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Wed Apr 6 18:23:56 2022 -0500
+
+    Changed prompts to avoid confusion
+
+[33mcommit 0ef32532351fe63ffbb47b3a980900bb93ba288f[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Thu Apr 7 04:52:33 2022 +0530
+
+    chore: Modify colors
+
+[33mcommit 3088d7b3ea4efe1f742fa730132b8a9520654bfe[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Thu Apr 7 04:44:07 2022 +0530
+
+    feat: Add transition effect
+
+[33mcommit b18f1f4e8abfead65ad3972931ca5ff6dd13c897[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Wed Apr 6 18:12:31 2022 -0500
+
+    Fixed image overlay responsiveness
+
+[33mcommit 9d084eccc8492f0095a055f65c3253d4cbcdcdd1[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Wed Apr 6 17:59:32 2022 -0500
+
+    Changed card size to fit content, allowing cards to be different sizes
+
+[33mcommit 9f9b267676e7c307806c370ec0b48f621edb7a33[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Thu Apr 7 04:28:06 2022 +0530
+
+    refactor: refactor code to improve readability
+
+[33mcommit 509bdbd093594528e359a8bdf7e86dc3ab1662a2[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Thu Apr 7 04:09:39 2022 +0530
+
+    feat: Add icon
+
+[33mcommit bda799140c453f7e54b8c10e8ae33db287ae1fc9[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Thu Apr 7 03:25:53 2022 +0530
+
+    feat: add auto mode and reposition button
+
+[33mcommit a88773b178b04a3688dfc94c1671bfdfcbfa91dc[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Wed Apr 6 16:50:20 2022 -0500
+
+    Updated function names
+
+[33mcommit 36e078955ed05e791e0489beb923ee65463c1bb8[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Wed Apr 6 16:45:51 2022 -0500
+
+    Added hide and show text button
+
+[33mcommit d5cb95587b37639b3388c4842bda392350b179f3[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Thu Apr 7 03:09:50 2022 +0530
+
+    feat: Add dark theme toggle
+
+[33mcommit b802f37867021ac787c1b2d447578fdd7327e5ce[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Wed Apr 6 16:16:33 2022 -0500
+
+    fixed conflicts
+
+[33mcommit 6c5cb432c5d1dd257227aa4d366ae42e1e0f44db[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Thu Apr 7 02:31:26 2022 +0530
+
+    Revert "feat: Add dark mode toggle"
+    
+    This reverts commit fd3d981a3e75393c470ded214efb9ff0a20eb2ca.
+
+[33mcommit ee05491fd1264afceeb7ee97f7c24baeb778bc55[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Thu Apr 7 02:22:36 2022 +0530
+
+    Revert "chore: reposition toggle button"
+    
+    This reverts commit 05594ceddae8c47f394f67e0f9b20368abedb09f.
+    
+    Reverted commit
+
+[33mcommit 7bc8c3e3091b12325ebd55ec1db679247054b798[m
+Author: abhishekrawe <rajputabhisheksingh53@gmail.com>
+Date:   Thu Apr 7 01:44:31 2022 +0530
+
+    Give some css to logo
+
+[33mcommit a417891740a313b67964192dfe393cc815b69ca0[m
+Author: abhishekrawe <rajputabhisheksingh53@gmail.com>
+Date:   Thu Apr 7 01:40:53 2022 +0530
+
+    Changed the mlh.svg logo to mlh-prep.png logo
+
+[33mcommit 36febd37132fd6cbe334648fcaf6c112016a8c27[m
+Author: mutugiii <mutugimutuma@gmail.com>
+Date:   Wed Apr 6 21:41:45 2022 +0300
+
+    More defined logical statements and covering more edge cases
+
+[33mcommit 056ef6ab2e9b243b3e466d69e0615422fe4cbe6d[m
+Author: shamvi-05 <shamvi050801@gmail.com>
+Date:   Wed Apr 6 23:16:39 2022 +0530
+
+    added
+
+[33mcommit 05594ceddae8c47f394f67e0f9b20368abedb09f[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Wed Apr 6 20:17:17 2022 +0530
+
+    chore: reposition toggle button
+
+[33mcommit 093161b9a1b8d069eb2f2ddbe02294cead8bab93[m
+Author: mutugiii <mutugimutuma@gmail.com>
+Date:   Wed Apr 6 17:31:02 2022 +0300
+
+    Github Actions: Create a yaml config file to use Calibre App(from Github Actions Marketplace) to compress Images while maintaing high quality to improve loading speeds
+
+[33mcommit fd3d981a3e75393c470ded214efb9ff0a20eb2ca[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Wed Apr 6 18:06:56 2022 +0530
+
+    feat: Add dark mode toggle
+
+[33mcommit f037ec3724810efc66e0ca0ea0e9b51f1aec3b9f[m
+Author: EfazAhmed <efazahmededu@gmail.com>
+Date:   Wed Apr 6 06:30:25 2022 -0400
+
+    Added Contributing.md file which gives the user the opportunity to learn how to successfullly submit a PR and contribute
+
+[33mcommit 3ea62b5c96bcfd6f15b6ceaf66efe89b00133ef1[m
+Author: JyotimoyKashyap <jyotimoykashyap123@gmail.com>
+Date:   Wed Apr 6 15:43:47 2022 +0530
+
+    issue : fixed the alignemnt for the social icons
+
+[33mcommit 08dd4342bb8c04e1304a7c505466519dfd170e9c[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Wed Apr 6 00:19:55 2022 -0500
+
+    Changed back button in proyect page for a stylized anchor
+
+[33mcommit 4c13a9aa0bf5a986a91ef0866bd1d8ff6e5c8d3e[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Wed Apr 6 00:18:11 2022 -0500
+
+    Added description
+
+[33mcommit 21eb6d4965a2a5202ece91d8570d73c2a663f2a5[m[33m ([m[1;32mprofilePictures[m[33m)[m
+Author: suraj-singh127 <surajsingh25163@gmail.com>
+Date:   Wed Apr 6 09:59:09 2022 +0530
+
+    Changed logo and color also the font size
+
+[33mcommit d6f9e7d06a597bb33c764ba437d41996b5b097e1[m
+Author: ankitaugale23 <ankitaugale23@gmail.com>
+Date:   Wed Apr 6 09:45:43 2022 +0530
+
+    activate social media links on icons
+
+[33mcommit 46b5902d0ff68c5eab723e7243a4c3b472c60bbf[m
+Merge: 427472a 8376f41
+Author: ankitaugale23 <ankitaugale23@gmail.com>
+Date:   Wed Apr 6 09:35:17 2022 +0530
+
+    Merge branch 'main' of https://github.com/JyotimoyKashyap/pod-22.P3.1-portfolio
+
+[33mcommit 427472acfb830aa93e258b815a1297a8c53a85d7[m
+Author: ankitaugale23 <ankitaugale23@gmail.com>
+Date:   Wed Apr 6 09:34:41 2022 +0530
+
+    add social media links to fellows file
+
+[33mcommit 5ae163786f8b2ced8cdffe8a2d3773c9441431a3[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Tue Apr 5 19:00:35 2022 -0500
+
+    Added back button to proyects page
+
+[33mcommit b6817e7f3714a2622d009b43d865fe93f4eb88f6[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Tue Apr 5 18:19:17 2022 -0500
+
+    Changed styling of cards when hovered: removed text decoration
+
+[33mcommit 31bca8de5318cc8869aa1829c3f844c9e20fa351[m
+Author: EfazAhmed <efazahmededu@gmail.com>
+Date:   Tue Apr 5 18:58:34 2022 -0400
+
+    Removed the Xs on the pull_request_template file
+
+[33mcommit 0faa919c3cfca43f36462df9967fd35a2049a9e5[m
+Author: EfazAhmed <efazahmededu@gmail.com>
+Date:   Tue Apr 5 18:38:54 2022 -0400
+
+    Changed the pod name to Software Simbas by editing the title in the config file
+
+[33mcommit 4cbc6cb78e5f8828f8f2f5b808291dd05076b64b[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Tue Apr 5 17:15:19 2022 -0500
+
+    Added authors to card. Stylized name
+
+[33mcommit f0fc3be92175393f4ceaa983d015d66c62758c9a[m
+Author: suraj-singh127 <surajsingh25163@gmail.com>
+Date:   Wed Apr 6 03:16:54 2022 +0530
+
+    Final Changes to Navbar
+
+[33mcommit 91bc2059febb979d12b385f705a0aad1a79da17e[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Tue Apr 5 16:42:09 2022 -0500
+
+    Stylized image preview on proyect card
+
+[33mcommit 8376f41e9e748b8c7e9f26cab6e50a6fe55ac8ae[m
+Author: JyotimoyKashyap <jyotimoykashyap123@gmail.com>
+Date:   Wed Apr 6 02:24:19 2022 +0530
+
+    removed comments
+
+[33mcommit 75e6a66907642289e12533c9b251fa3d9e9ddf59[m
+Author: JyotimoyKashyap <jyotimoykashyap123@gmail.com>
+Date:   Wed Apr 6 02:14:59 2022 +0530
+
+    added social icons
+
+[33mcommit b957d22bd487d021070164f7a5c5450f0dfff7b4[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Tue Apr 5 15:35:57 2022 -0500
+
+    Organized assets
+
+[33mcommit 6b0c4d37d3d96c66a08bb8675f52b5d01f8f2687[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Tue Apr 5 15:35:15 2022 -0500
+
+    Started overlay of image
+
+[33mcommit a24e29e590a5757df2d981ab6f132920e0bbb464[m
+Author: JyotimoyKashyap <jyotimoykashyap123@gmail.com>
+Date:   Wed Apr 6 00:20:05 2022 +0530
+
+    added social media icons
+
+[33mcommit 77bd2420d30421e48835db3f2e5edf3bf1f4963e[m
+Author: suraj-singh127 <surajsingh25163@gmail.com>
+Date:   Tue Apr 5 21:47:52 2022 +0530
+
+    navbar added as per specifications requested
+
+[33mcommit d13ed1abb8ac46755e29e0e5799994e0e2ecdbd9[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Tue Apr 5 14:53:26 2022 +0530
+
+    Add MLH background in header
+
+[33mcommit fbf2f37855b0801e0f199f2c8aaba2ef3d658bbd[m
+Author: Mayank17M <mamgain.mayank01@gmail.com>
+Date:   Tue Apr 5 14:25:55 2022 +0530
+
+    Add header background
+
+[33mcommit aaee1202b0ac89f9f9b922eedd53a7c944c6f883[m
+Author: PAOK-2001 <2001.paok@gmail.com>
+Date:   Mon Apr 4 22:10:15 2022 -0500
+
+    Added hover effect for cards, and image for proyects
+
+[33mcommit bb5c63a9255b7378b616fecec66c2214737d9f8d[m
+Author: Will Russell <will@wrussell.co.uk>
+Date:   Thu Mar 31 12:38:39 2022 +0100
+
+    Initial commit

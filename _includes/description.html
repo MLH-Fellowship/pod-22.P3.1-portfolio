@@ -2,6 +2,7 @@
 <div class="card-container" id="Pod">
     {% for item in site.data.fellows %}
     <div class="card">
+        <img src="/assets/img/{{ item.img }}" alt="" class="profilePictures">
         {% if item.page-name %}
         <a href="/projects/{{ item.page-name }}">
         {% else %}
