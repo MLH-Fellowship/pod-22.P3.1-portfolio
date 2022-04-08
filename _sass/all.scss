@@ -5,15 +5,17 @@
 @import 'page';
 @import 'scroll.scss';
 @import 'darkmode';
+@import 'map';
 @import 'footer';
-html {
-  scroll-behavior: smooth;
+
+html{
+    scroll-behavior: smooth;
 }
 
 .card-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  font-family: "Open Sans", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: "Open Sans", sans-serif;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -32,7 +34,6 @@ html {
   .card-container {
     grid-template-columns: 1fr;
   }
-
   .mobile-hidden {
     display: none;
   }
@@ -54,18 +55,16 @@ html {
   background-color: #121212;
 }
 
-::-webkit-scrollbar {
-  width: 2vh;
+.adaptive-theme-color {
+  background-color: #2C74D8;
 }
 
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgb(250, 249, 249);
-  border-radius: 10px;
+.adaptive-shadow {
+  filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.2));
 }
 
-::-webkit-scrollbar-thumb {
-  background: grey;
-  border-radius: 10px;
+.adaptive-background-transparent {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -143,8 +142,9 @@ a:hover {
   text-decoration: none;
   color: grey;
 }
+
 a {
-  color: black;
+    color: black;
 }
 
 .project-thumbnail {
@@ -171,6 +171,7 @@ a {
     opacity: 0;
     transition: .5s ease;
     background-color: #133667;
+
   }
 
   .overlay-message {
@@ -257,6 +258,7 @@ align-items: center;
 }
 }
 
+
 @media only screen and (max-width: 300px) {
 .social_icon {
   width: 30px;
@@ -297,7 +299,11 @@ align-items: center;
 }
 
 
+
+
 .button-show{
   margin: 0 auto;
 }
+
+
 
