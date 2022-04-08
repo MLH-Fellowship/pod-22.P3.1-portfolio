@@ -3,6 +3,9 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include header.html %}
+<head>
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+</head>
 
 <body class="hidden">
     {% include navbar.html %}
@@ -10,11 +13,16 @@
     {% include profile.html %}
     
     {% include description.html %}
+
+    {% include map.html %}
     
     {% include projects.html %}
 
     {% include scroll.html %}
+    
     {% include toggle.html %}
+    {% include footer.html %}
+
 
     <script>
         const theme = localStorage.getItem("mode");

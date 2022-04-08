@@ -1,8 +1,8 @@
-
 <h2>Meet the Pod Members</h2>
 <div class="card-container" id="Pod">
     {% for item in site.data.fellows %}
     <div class="card">
+        <img src="/assets/img/{{ item.img }}" alt="" class="profilePictures">
         {% if item.page-name %}
         <a href="/projects/{{ item.page-name }}">
         {% else %}
@@ -33,6 +33,17 @@
                 <a class="link" href= {{ item.resume }}>
                     <img src="./assets/img/social_icons/cv.svg" />
                 </a>
+            </div>
+        </div>
+        <div class="stats-container">
+            <div class="stats">
+                <span class="stats-content">Commits:</span> <span class="adaptive-text">{{item.commits}}</span>
+            </div>
+            <div class="stats">
+                <span class="stats-content">Issues:</span> <span class="adaptive-text">{{item.issues}}</span>
+            </div>
+            <div class="stats">
+                <span class="stats-content">Reviews:</span> <span class="adaptive-text">{{item.reviews}}</span>
             </div>
         </div>
     </div>
