@@ -9,17 +9,31 @@ layout: default
     max-width: 600px;
     text-align: center;
   }
+
   h1 {
     margin: 30px 0;
     font-size: 4em;
     line-height: 1;
     letter-spacing: -1px;
   }
+
+  .message {
+    animation: beat .9s infinite alternate;
+  }
+
+  /* Heart beat animation */
+  @keyframes beat {
+    to {
+      transform: scale(1.4);
+    }
+  }
 </style>
 
 <div class="container">
   <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p class="message"><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p><br/>
+
+  <a href="/" class ="back-button">Go to Pod Home!</a>
 </div>
