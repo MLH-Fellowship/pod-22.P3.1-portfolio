@@ -1,0 +1,42 @@
+name: Compress images
+# Actions run when the specified image types are added/changed
+# It works for the specific scenario - On pushing to main branch(for forks)
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.jpg'
+      - '**.jpeg'
+      - '**.png'
+      - '**.webp'
+  workflow_dispatch:
+  # On demand in case the scenario above gets missed by
+  # In this case it is Weekly on Friday at 10PM
+  schedule:
+    - cron: '00 22 * * 5'
+jobs:
+  build:
+    name: calibreapp/image-actions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Branch
+        uses: actions/checkout@v2
+
+      - name: Compress Images
+        id: calibre
+        uses: calibreapp/image-actions@main
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          # Run in compressOnly mode and we'll PR after.
+          compressOnly: true
+
+      - name: Create Pull Request
+        # Commit any changes as a new PR.
+        if: steps.calibre.outputs.markdown != ''
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: Auto Compress Images
+          branch-suffix: timestamp
+          commit-message: Compress Images
+          body: ${{ steps.calibre.outputs.markdown }}
