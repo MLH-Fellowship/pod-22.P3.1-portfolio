@@ -1,28 +1,34 @@
-<header class="nav-bar">
-    <div class="nav-content">
+<nav class="nav-bar navbar navbar-expand-sm sticky-top">
         <a href="{{ '/' | relative_url }}">
             <div class="nav-logo">
                 <img src="./assets/img/mlh-prep.png" />
             </div>
-
         </a>
-        
-        <div class="buttons">
-            <ul class="nav-links">
-                <li class="navLink"><a href="#Pod">Meet the Pod</a></li>
-                <li class="navLink"><a href="#Projects">Projects</a></li>
-                <li class="navLink"><a href="">Other Stuff</a></li>
-            </ul> 
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-links ml-auto">
+                <li class="nav-item navLink">
+                    <a class="nav-link" href="#Pod">Meet the Pod</a>
+                </li>
+                <li class="nav-item navLink">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                </li>
+                <li class="nav-item navLink">
+                    <a class="nav-link" href="">Other Stuff</a>
+                </li>
+            </ul>
         </div>
-       
-    </div>
     <script>
         let navLogo = document.querySelector('.nav-logo');
         navLogo.className = "nav-logo hide"
-        function myScrollFunc(){
+        function myScrollFunc() {
             var scY = window.scrollY;
-            if(scY > 100) {
-                navLogo.className = "nav-logo show"   
+            if (scY > 100) {
+                navLogo.className = "nav-logo show"
                 navLogo.style.padding = "0.3rem 0";
             }
             else {
@@ -32,4 +38,4 @@
         }
         window.addEventListener("scroll", myScrollFunc);
     </script>
-</header>
+</nav>
