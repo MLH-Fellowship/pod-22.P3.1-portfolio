@@ -56,7 +56,9 @@ $colors_of_cirlce: #133667, #ea4820, #ffec1e, #39ce43, #f5f8f9, #ff1379;
   0% {
     transform: scale(1);
   }
-  
+  25% {
+    transform: scale(2);
+  }
   50% {
     opacity: 0.3;
     transform: scale(2);
