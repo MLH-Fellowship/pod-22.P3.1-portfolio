@@ -7,6 +7,9 @@
   resume: https://docs.google.com/document/d/1y7Sf0g1ATm6DgQ2PyvYap-htYcdN_tySq2fjZP66u8k/edit?usp=sharing
   location: Bihar, India
   page-name: shamvi
+  commits: 4
+  issues: 0
+  reviews: 0
 
 - name: Anjali Saxena
   img: anjali.png
@@ -17,6 +20,9 @@
   resume: https://www.google.com/
   location: Delhi , India
   page-name: Anjali
+  commits: 3
+  issues: 0
+  reviews: 0
 
 - name: Khushhal Reddy
   img: khusshal.png
@@ -27,6 +33,9 @@
   resume: https://www.google.com/
   location: Bhopal,India
   page-name: Reddy
+  commits: 0
+  issues: 0
+  reviews: 2
 
 - name: Pablo Agustin Ortega Kral
   img: pablo.png
@@ -37,6 +46,9 @@
   resume: https://drive.google.com/file/d/1d2fxyamph8m6iPlkRmPndN3X6zEoyYuf/view?usp=sharing
   location: Guadalajara, Mexico
   page-name: Pablo
+  commits: 20
+  issues: 2
+  reviews: 0
 
 - name: Mayank Mamgain
   img: mayank.png
@@ -46,6 +58,9 @@
   resume: https://www.google.com/
   location: Delhi , India
   page-name: mayank
+  commits: 13
+  issues: 2
+  reviews: 4
 
 - name: Aastha Aggarwal 
 
@@ -59,6 +74,9 @@
 
   location: Delhi , India
   page-name: Aastha
+  commits: 0
+  issues: 0
+  reviews: 0
 
 - name: Abhishek Kumar Singh
   img: abhishek.png
@@ -68,6 +86,9 @@
   resume: https://www.google.com/
   location: Bihar,India
   page-name: Abhishek
+  commits: 2
+  issues: 0
+  reviews: 1
 
 - name: Ankita Ugale
   img: ankita.jpeg
@@ -77,6 +98,9 @@
   resume: https://www.google.com/
   location: Maharashtra, India
   page-name: Ankita
+  commits: 2
+  issues: 0
+  reviews: 0
 
 - name: Anusha Nath Roy
   img: anusha.png
@@ -86,6 +110,9 @@
   resume: https://www.google.com/
   location: Delhi , India
   page-name: Anusha
+  commits: 0
+  issues: 1
+  reviews: 0
 
 - name: Efaz Ahmed
   img: efaz.png
@@ -95,6 +122,9 @@
   resume: https://www.google.com/
   location: New York, USA
   page-name: Efaz
+  commits: 5
+  issues: 0
+  reviews: 0
 
 - name: Jyotimoy Kashyap
 
@@ -108,6 +138,9 @@
 
   location: Assam, India 
   page-name: Jyotimoy
+  commits: 4
+  issues: 1
+  reviews: 1
 
 - name: Mutugi Mutuma
   img: aaron.jpg
@@ -117,6 +150,9 @@
   resume: https://www.google.com/
   location: Nairobi, Kenya
   page-name: Mutugi
+  commits: 3
+  issues: 4
+  reviews: 4
 
 - name: Omkar Acharekar
   img: aaron.jpg
@@ -126,6 +162,9 @@
   resume: https://www.google.com/
   location: Maharashtra, India
   page-name: Omkar
+  commits: 0
+  issues: 0
+  reviews: 0
 
 - name: Satya Prakash Satyam
   img: satya.png  
@@ -135,6 +174,9 @@
   resume: https://drive.google.com/file/d/1FjZa1HDRKnqtOBACdAetECZP3RUdoC6e/view?usp=sharing
   location: Prayagraj, India
   page-name: Satya
+  commits: 0
+  issues: 1
+  reviews: 0
 
 - name: Unnati Chhabra
 
@@ -148,6 +190,9 @@
 
   location: Delhi , India
   page-name: Unnati
+  commits: 1
+  issues: 3
+  reviews: 3
 
 - name: Suraj Singh
   img: suraj.png
@@ -157,3 +202,6 @@
   resume: https://www.google.com/
   location: Varanasi, India
   page-name: suraj
+  commits: 6
+  issues: 0
+  reviews: 1
