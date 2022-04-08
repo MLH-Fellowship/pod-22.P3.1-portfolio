@@ -1,6 +1,9 @@
 name: Contribution Count
 
 on:
+  pull_request_review:
+    types:
+      - submitted
   push:
   issues:
     types:
@@ -13,7 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
       - uses: fabasoad/yaml-json-xml-converter-action@main
         id: yaml2json
         with:
@@ -30,10 +32,17 @@ jobs:
               return fellow.github.split('/').pop() === context.payload.sender.login;
             })[0];
             if(contributor){
-              contributor['contributions'] += 1;
+              if(context.payload.commits) {
+                 contributor['commits'] += context.payload.commits.length;
+              } else if( context.payload.review ) {
+                contributor['reviews'] += 1;
+              } else {
+                contributor['issues'] += 1;
+              }
             }
             return fellowsInfo;
       - run: echo '${{steps.increment.outputs.result}}' > temp.json
+      - run: tail temp.json
       - uses: fabasoad/yaml-json-xml-converter-action@main
         id: json2yaml
         with:
