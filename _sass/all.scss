@@ -149,6 +149,7 @@ a {
 
 .project-thumbnail {
   position: relative;
+  margin: 0 auto;
   margin-bottom: 1rem;
   width: 259px;
   height: 194px;
@@ -156,6 +157,7 @@ a {
   .thumb {
     width: 259px;
     height: 194px;
+
   }
 
   .overlay {
@@ -192,10 +194,11 @@ a {
 
 .info {
 
+
   p {
     margin-top: 5px;
     margin: 0px;
-    text-align: left;
+    text-align: justify;
   }
 
   .title {
@@ -293,6 +296,13 @@ align-items: center;
           color: #000;
       }
   }
+}
+
+
+
+
+.button-show{
+  margin: 0 auto;
 }
 
 
